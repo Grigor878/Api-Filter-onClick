@@ -1,0 +1,40 @@
+.main {
+  padding: 50px 250px;
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    margin-bottom: 50px;
+  }
+  &__btn {
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 11px;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  &__loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 55px;
+      object-fit: cover;
+    }
+  }
+
+  &__display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 9px;
+    padding: 22px;
+  }
+}
